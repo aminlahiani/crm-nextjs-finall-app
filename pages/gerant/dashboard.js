@@ -19,8 +19,8 @@ import LocalOffer from "@material-ui/icons/LocalOffer";
 import Update from "@material-ui/icons/Update";
 
 // layout for this page
-import User from "layouts/User.js";
-import Admin from "layouts/Admin.js";
+import Gerant from "layouts/Gerant.js";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -146,6 +146,6 @@ console.log(data)
    props: { currentUser: data  }, // will be passed to the page component as props
  };
 }
-Dashboard.layout = User
+Dashboard.layout = Gerant
 
 export default Dashboard;

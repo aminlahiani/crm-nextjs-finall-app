@@ -16,12 +16,6 @@ var dashRoutes = [
     layout: "/user",
   },
   {
-    path: "/superviseurs",
-    name: "Superviseurs",
-    icon: Timeline,
-    layout: "/user",
-  },
-  {
     path: "/deligues",
     name: "Deligues",
     icon: Place,
